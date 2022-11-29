@@ -11,7 +11,7 @@ def concatenate(first: str, second: str, /, *, delim: str):
     return delim.join([first, second])
 
 
-def concatenate2(*items, delim: str):
+def concatenate2(*items, delim: str): #elementy z krotki item
     return delim.join(items)
 
 
